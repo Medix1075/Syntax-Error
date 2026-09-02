@@ -1,0 +1,13 @@
+corridor,source_center,destination_center,action,supporting_finding,corridor_score,current_breached_trips,assumed_effectiveness_pct,estimated_late_deliveries_reduced,estimated_revenue_recovered_inr
+IND000000ACB → IND562132AAA,IND000000ACB,IND562132AAA,Upgrade endpoint capacity and enforce dispatch slots,Median dwell proxy is 193 minutes (top quartile).,0.834632333399774,66,30.0,19.8,9900.0
+IND000000ACB → IND712311AAA,IND000000ACB,IND712311AAA,Upgrade endpoint capacity and enforce dispatch slots,Median dwell proxy is 226 minutes (top quartile).,0.6096943980170391,48,30.0,14.399999999999999,7199.999999999999
+IND562132AAA → IND000000ACB,IND562132AAA,IND000000ACB,Upgrade endpoint capacity and enforce dispatch slots,Median dwell proxy is 312 minutes (top quartile).,0.5518560409446917,44,30.0,13.2,6600.0
+IND000000ACB → IND501359AAE,IND000000ACB,IND501359AAE,Upgrade endpoint capacity and enforce dispatch slots,Median dwell proxy is 247 minutes (top quartile).,0.4242329736489621,29,30.0,8.7,4350.0
+IND000000ACB → IND421302AAG,IND000000ACB,IND421302AAG,Upgrade endpoint capacity and enforce dispatch slots,Median dwell proxy is 256 minutes (top quartile).,0.4122385784487306,33,30.0,9.9,4950.0
+IND781018AAB → IND110037AAM,IND781018AAB,IND110037AAM,Upgrade endpoint capacity and enforce dispatch slots,Median dwell proxy is 169 minutes (top quartile).,0.408715359581646,17,30.0,5.1,2550.0
+IND562132AAA → IND560300AAA,IND562132AAA,IND560300AAA,Qualify a parallel lane/carrier and add exception alerts,Median actual time is 1.71× OSRM across 151 legs.,0.38647146105772834,140,20.0,28.0,14000.0
+IND000000ACB → IND160002AAC,IND000000ACB,IND160002AAC,Upgrade endpoint capacity and enforce dispatch slots,Median dwell proxy is 354 minutes (top quartile).,0.3825469402210361,58,30.0,17.4,8700.0
+IND411033AAA → IND421302AAG,IND411033AAA,IND421302AAG,Upgrade endpoint capacity and enforce dispatch slots,Median dwell proxy is 98 minutes (top quartile).,0.37879828165377816,107,30.0,32.1,16050.0
+IND421302AAG → IND000000ACB,IND421302AAG,IND000000ACB,Upgrade endpoint capacity and enforce dispatch slots,Median dwell proxy is 220 minutes (top quartile).,0.3743207058459396,26,30.0,7.8,3900.0
+IND160002AAC → IND000000ACB,IND160002AAC,IND000000ACB,Upgrade endpoint capacity and enforce dispatch slots,Median dwell proxy is 236 minutes (top quartile).,0.36511582775131957,66,30.0,19.8,9900.0
+IND400072AAD → IND421302AAG,IND400072AAD,IND421302AAG,Upgrade endpoint capacity and enforce dispatch slots,Median dwell proxy is 120 minutes (top quartile).,0.35951285314739273,99,30.0,29.7,14850.0

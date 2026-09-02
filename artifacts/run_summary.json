@@ -1,0 +1,16 @@
+{
+  "source": "data/raw/delivery_data.csv",
+  "baseline_mae": 72.20237663809323,
+  "graph_mae": 59.05413182372679,
+  "baseline_within_15pct": 36.94331983805668,
+  "graph_within_15pct": 46.3225371120108,
+  "passes_required_model_gate": true,
+  "top_hubs": [
+    "IND000000ACB",
+    "IND562132AAA",
+    "IND421302AAG",
+    "IND712311AAA",
+    "IND501359AAE"
+  ],
+  "artifacts": "/workspace/scratch/8e590b579e57/project/artifacts"
+}

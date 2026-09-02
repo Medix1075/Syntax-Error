@@ -1,0 +1,22 @@
+{
+  "source_file": "delivery_data.csv",
+  "source_sha256": "203535609bb2e2fe60030705b18bb5a2685f137e81bcd3b16579b75891c40422",
+  "raw_rows": 142267,
+  "raw_columns": 24,
+  "exact_duplicate_rows": 0,
+  "trip_count": 14817,
+  "leg_count": 26369,
+  "facility_count": 1657,
+  "corridor_count": 2783,
+  "time_start": "2018-09-12 00:00:16.535741",
+  "time_end": "2018-10-03 23:59:42.701692",
+  "null_counts": {
+    "source_name": 285,
+    "destination_name": 260,
+    "cutoff_timestamp": 2985
+  },
+  "aggregation_check": {
+    "median_abs_difference_actual_max_vs_segment_sum_minutes": 1.0,
+    "p99_abs_difference_minutes": 23.0
+  }
+}

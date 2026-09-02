@@ -3,5 +3,6 @@ __pycache__/
 *.pyc
 data/raw/*.csv
 data/processed/*.csv
-artifacts/
 .streamlit/secrets.toml
+.pytest_cache/
+.coverage

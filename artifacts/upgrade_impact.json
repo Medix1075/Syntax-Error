@@ -1,0 +1,15 @@
+{
+  "top_3_hubs": [
+    "IND000000ACB",
+    "IND562132AAA",
+    "IND421302AAG"
+  ],
+  "network_late_trips": 14079,
+  "late_trips_touching_top_3": 3903,
+  "assumed_effectiveness_pct": 30.0,
+  "estimated_late_deliveries_reduced": 1170.8999999999999,
+  "network_late_delivery_reduction_pct": 8.316641806946516,
+  "current_revenue_at_risk_inr": 7039500.0,
+  "estimated_revenue_recovered_inr": 585449.9999999999,
+  "note": "Scenario estimate, not a causal forecast; change assumptions in src/config.py."
+}

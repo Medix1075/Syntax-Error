@@ -1,0 +1,49 @@
+{
+  "baseline": {
+    "mae_minutes": 72.20237663809323,
+    "median_absolute_error_minutes": 29.75471218967965,
+    "within_15pct": 36.94331983805668,
+    "within_30pct": 62.044534412955464,
+    "mean_bias_minutes": -14.608946801177877,
+    "n_test_trips": 2964
+  },
+  "graph_enhanced": {
+    "mae_minutes": 59.05413182372679,
+    "median_absolute_error_minutes": 23.637069002661292,
+    "within_15pct": 46.3225371120108,
+    "within_30pct": 70.74898785425101,
+    "mean_bias_minutes": -9.891240164913146,
+    "n_test_trips": 2964
+  },
+  "improvement": {
+    "mae_reduction_minutes": 13.148244814366436,
+    "mae_reduction_pct": 18.210265958793325,
+    "within_15pct_lift_points": 9.379217273954119,
+    "passes_both_required_metrics": true
+  },
+  "evaluation_design": {
+    "split": "chronological 60% graph reference / 20% model train / 20% untouched test",
+    "split_trip_counts": {
+      "reference": 8890,
+      "test": 2964,
+      "train": 2963
+    },
+    "split_cutoffs": {
+      "reference": "2018-09-24 13:19:43.403798",
+      "train": "2018-09-28 22:36:29.186136",
+      "test": "2018-10-03 23:59:42.701692"
+    },
+    "reference_graph_edge_seen_share_on_test": 0.8722415011888696
+  },
+  "business_assumptions": {
+    "sla_ratio": 1.2,
+    "late_delivery_penalty_inr": 500.0,
+    "time_value_inr_per_minute": 2.0,
+    "ftl_fixed_cost_inr": 1200.0,
+    "ftl_cost_per_km_inr": 18.0,
+    "carting_fixed_cost_inr": 250.0,
+    "carting_cost_per_km_inr": 28.0,
+    "risk_transition_minutes": 45.0,
+    "hub_upgrade_effectiveness": 0.3
+  }
+}
